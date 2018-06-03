@@ -20,7 +20,6 @@ var app = {
     }, 
     bindEvent: function() {
         var that = this;
-        console.log(888, neb);
 
         // 上链
         $(document).on('click', '.toChain', function(){
@@ -142,7 +141,6 @@ var app = {
     },  
     /*上链*/
     toChain: function(){
-        console.log(999);
 
         // 链上保存分数
         var nebPay = new NebPay();
