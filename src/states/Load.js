@@ -3,11 +3,11 @@ import { CENTER_X, CENTER_Y } from '../utils/Constants';
 
 // images and fonts will be served from express static since there are no
 // webpack loaders available for the fnt extension
-const image = 'static/assets/images/';
-const font = 'static/assets/fonts/';
-// const wav = 'static/assets/audio/wav/';
-const mp3 = 'static/assets/audio/mp3/';
-const ogg = 'static/assets/audio/ogg/';
+const image = './static/assets/images/';
+const font = './static/assets/fonts/';
+// const wav = './static/assets/audio/wav/';
+const mp3 = './static/assets/audio/mp3/';
+const ogg = './static/assets/audio/ogg/';
 
 /*
     Loads all sprite, audio, and fonts. Enable arcade physics
